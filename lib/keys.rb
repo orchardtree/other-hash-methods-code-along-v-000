@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
-  groceries.collect do |aisle, food|
-    aisle
-  end
+  groceries.keys
 end
